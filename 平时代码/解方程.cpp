@@ -40,15 +40,15 @@
 //			{
 //				if (derta == 0)
 //				{
-//					printf("x1=x2=%.4g\n", (float)(-b + sqrt(derta)) / 2);
+//					printf("x1=x2=%.4g\n", (float)(-b + sqrt(derta)) / (2*a));
 //				}
 //				else if (derta > 0)
 //				{
-//					printf("x1=%.4g x2=%.4g\n", (float)(-b + sqrt(derta)) / 2, (float)(-b - sqrt(derta)) / 2);
+//					printf("x1=%.4g x2=%.4g\n", (float)(-b + sqrt(derta)) / (2 * a), (float)(-b - sqrt(derta)) / (2 * a));
 //				}
 //				else
 //				{
-//					printf("complex roots:x1=%.4f+%.4fi x2=%.4f-%.4fi\n", (float)-b / 2, sqrt(-derta) / 2, (float)-b / 2, sqrt(-derta) / 2);
+//					printf("complex roots:x1=%.4f+%.4fi x2=%.4f-%.4fi\n", (float)-b / (2*a), sqrt(-derta) / (2*a), (float)-b / (2*a), sqrt(-derta) / (2*a));
 //				}
 //			}
 //			break;

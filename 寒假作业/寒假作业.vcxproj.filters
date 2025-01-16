@@ -14,18 +14,4 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="输出成绩等级.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="两个整数的加法.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="求素数.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="求π的近似值.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
 </Project>
